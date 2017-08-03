@@ -1,0 +1,460 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AreEquivalent	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::AreEquivalent(int StateID1, int StateID2)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+DEBUG_HASH	include/footstep_planner/helper.h	24;"	d
+DEBUG_TIME	include/footstep_planner/helper.h	25;"	d
+EUCLIDEAN	include/footstep_planner/Heuristic.h	/^  enum HeuristicType { EUCLIDEAN=0, EUCLIDEAN_STEPCOST=1, PATH_COST=2 };$/;"	e	enum:footstep_planner::Heuristic::HeuristicType
+EUCLIDEAN_STEPCOST	include/footstep_planner/Heuristic.h	/^  enum HeuristicType { EUCLIDEAN=0, EUCLIDEAN_STEPCOST=1, PATH_COST=2 };$/;"	e	enum:footstep_planner::Heuristic::HeuristicType
+EuclStepCostHeuristic	include/footstep_planner/Heuristic.h	/^class EuclStepCostHeuristic : public Heuristic$/;"	c	namespace:footstep_planner
+EuclStepCostHeuristic	src/Heuristic.cpp	/^EuclStepCostHeuristic::EuclStepCostHeuristic(double cell_size,$/;"	f	class:footstep_planner::EuclStepCostHeuristic
+EuclideanHeuristic	include/footstep_planner/Heuristic.h	/^class EuclideanHeuristic : public Heuristic$/;"	c	namespace:footstep_planner
+EuclideanHeuristic	src/Heuristic.cpp	/^EuclideanHeuristic::EuclideanHeuristic(double cell_size, int num_angle_bins)$/;"	f	class:footstep_planner::EuclideanHeuristic
+FLOAT_CMP_THR	include/footstep_planner/helper.h	/^static const double FLOAT_CMP_THR = 0.0001;$/;"	m	namespace:footstep_planner
+FOOTSTEP_PLANNER_FOOTSTEPNAVIGATION_H_	include/footstep_planner/FootstepNavigation.h	22;"	d
+FOOTSTEP_PLANNER_FOOTSTEPPLANNERENVIRONMENT_H_	include/footstep_planner/FootstepPlannerEnvironment.h	22;"	d
+FOOTSTEP_PLANNER_FOOTSTEPPLANNERNODE_H_	include/footstep_planner/FootstepPlannerNode.h	22;"	d
+FOOTSTEP_PLANNER_FOOTSTEPPLANNER_H_	include/footstep_planner/FootstepPlanner.h	23;"	d
+FOOTSTEP_PLANNER_FOOTSTEP_H_	include/footstep_planner/Footstep.h	23;"	d
+FOOTSTEP_PLANNER_HELPER_H_	include/footstep_planner/helper.h	22;"	d
+FOOTSTEP_PLANNER_HEURISTIC_H_	include/footstep_planner/Heuristic.h	22;"	d
+FOOTSTEP_PLANNER_PATHCOSTHEURISTIC_H_	include/footstep_planner/PathCostHeuristic.h	22;"	d
+FOOTSTEP_PLANNER_PLANNINGSTATECHANGEQUERY_H_	include/footstep_planner/PlanningStateChangeQuery.h	22;"	d
+FOOTSTEP_PLANNER_PLANNINGSTATE_H_	include/footstep_planner/PlanningState.h	22;"	d
+FOOTSTEP_PLANNER_STATE_H_	include/footstep_planner/State.h	22;"	d
+Footstep	include/footstep_planner/Footstep.h	/^class Footstep$/;"	c	namespace:footstep_planner
+Footstep	src/Footstep.cpp	/^Footstep::Footstep(double x, double y, double theta, double cell_size,$/;"	f	class:footstep_planner::Footstep
+FootstepNavigation	include/footstep_planner/FootstepNavigation.h	/^class FootstepNavigation$/;"	c	namespace:footstep_planner
+FootstepNavigation	src/FootstepNavigation.cpp	/^FootstepNavigation::FootstepNavigation()$/;"	f	class:footstep_planner::FootstepNavigation
+FootstepPlanner	include/footstep_planner/FootstepPlanner.h	/^class FootstepPlanner$/;"	c	namespace:footstep_planner
+FootstepPlanner	src/FootstepPlanner.cpp	/^FootstepPlanner::FootstepPlanner()$/;"	f	class:footstep_planner::FootstepPlanner
+FootstepPlannerEnvironment	include/footstep_planner/FootstepPlannerEnvironment.h	/^class FootstepPlannerEnvironment : public DiscreteSpaceInformation$/;"	c	namespace:footstep_planner
+FootstepPlannerEnvironment	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::FootstepPlannerEnvironment($/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+FootstepPlannerNode	include/footstep_planner/FootstepPlannerNode.h	/^class FootstepPlannerNode$/;"	c	namespace:footstep_planner
+FootstepPlannerNode	src/FootstepPlannerNode.cpp	/^FootstepPlannerNode::FootstepPlannerNode()$/;"	f	class:footstep_planner::FootstepPlannerNode
+FootstepPlannerWallsNode	src/footstep_planner_walls.cpp	/^  FootstepPlannerWallsNode()$/;"	f	class:FootstepPlannerWallsNode
+FootstepPlannerWallsNode	src/footstep_planner_walls.cpp	/^class FootstepPlannerWallsNode {$/;"	c	file:
+GetFromToHeuristic	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::GetFromToHeuristic(const PlanningState& from,$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+GetFromToHeuristic	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::GetFromToHeuristic(int FromStateID,$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+GetGoalHeuristic	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::GetGoalHeuristic(int stateID)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+GetPreds	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::GetPreds(int TargetStateID,$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+GetRandomNeighs	src/FootstepPlannerEnvironment.cpp	/^void FootstepPlannerEnvironment::GetRandomNeighs(const PlanningState* currentState, std::vector<int>* NeighIDV, std::vector<int>* CLowV, int nNumofNeighs, int nDist_c, bool bSuccs)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+GetRandomPredsatDistance	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::GetRandomPredsatDistance(int TargetStateID,$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+GetRandomSuccsatDistance	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::GetRandomSuccsatDistance(int SourceStateID,$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+GetStartHeuristic	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::GetStartHeuristic(int stateID)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+GetSuccs	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::GetSuccs(int SourceStateID,$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+GetSuccsTo	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::GetSuccsTo(int SourceStateID, int goalStateId,$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+Heuristic	include/footstep_planner/Heuristic.h	/^class Heuristic$/;"	c	namespace:footstep_planner
+Heuristic	src/Heuristic.cpp	/^Heuristic::Heuristic(double cell_size, int num_angle_bins,$/;"	f	class:footstep_planner::Heuristic
+HeuristicType	include/footstep_planner/Heuristic.h	/^  enum HeuristicType { EUCLIDEAN=0, EUCLIDEAN_STEPCOST=1, PATH_COST=2 };$/;"	g	class:footstep_planner::Heuristic
+InitializeEnv	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::InitializeEnv(const char *sEnvFile)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+InitializeMDPCfg	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::InitializeMDPCfg(MDPConfig *MDPCfg)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+IntPairHash	include/footstep_planner/FootstepPlannerEnvironment.h	/^  struct IntPairHash{$/;"	s	class:footstep_planner::FootstepPlannerEnvironment
+LEFT	include/footstep_planner/helper.h	/^enum Leg { RIGHT=0, LEFT=1, NOLEG=2 };$/;"	e	enum:footstep_planner::Leg
+Leg	include/footstep_planner/helper.h	/^enum Leg { RIGHT=0, LEFT=1, NOLEG=2 };$/;"	g	namespace:footstep_planner
+NOLEG	include/footstep_planner/helper.h	/^enum Leg { RIGHT=0, LEFT=1, NOLEG=2 };$/;"	e	enum:footstep_planner::Leg
+PATH_COST	include/footstep_planner/Heuristic.h	/^  enum HeuristicType { EUCLIDEAN=0, EUCLIDEAN_STEPCOST=1, PATH_COST=2 };$/;"	e	enum:footstep_planner::Heuristic::HeuristicType
+PathCostHeuristic	include/footstep_planner/PathCostHeuristic.h	/^class PathCostHeuristic : public Heuristic$/;"	c	namespace:footstep_planner
+PathCostHeuristic	src/PathCostHeuristic.cpp	/^PathCostHeuristic::PathCostHeuristic(double cell_size,$/;"	f	class:footstep_planner::PathCostHeuristic
+PlanningState	include/footstep_planner/PlanningState.h	/^class PlanningState$/;"	c	namespace:footstep_planner
+PlanningState	src/PlanningState.cpp	/^PlanningState::PlanningState(const PlanningState& s)$/;"	f	class:footstep_planner::PlanningState
+PlanningState	src/PlanningState.cpp	/^PlanningState::PlanningState(const State& s, double cell_size,$/;"	f	class:footstep_planner::PlanningState
+PlanningState	src/PlanningState.cpp	/^PlanningState::PlanningState(double x, double y, double theta, Leg leg,$/;"	f	class:footstep_planner::PlanningState
+PlanningState	src/PlanningState.cpp	/^PlanningState::PlanningState(int x, int y, int theta, Leg leg,$/;"	f	class:footstep_planner::PlanningState
+PlanningStateChangeQuery	include/footstep_planner/PlanningStateChangeQuery.h	/^class PlanningStateChangeQuery : public StateChangeQuery$/;"	c	namespace:footstep_planner
+PlanningStateChangeQuery	src/PlanningStateChangeQuery.cpp	/^PlanningStateChangeQuery::PlanningStateChangeQuery($/;"	f	class:footstep_planner::PlanningStateChangeQuery
+PrintEnv_Config	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::PrintEnv_Config(FILE *fOut)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+PrintState	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::PrintState(int stateID, bool bVerbose,$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+RIGHT	include/footstep_planner/helper.h	/^enum Leg { RIGHT=0, LEFT=1, NOLEG=2 };$/;"	e	enum:footstep_planner::Leg
+SetAllActionsandAllOutcomes	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::SetAllActionsandAllOutcomes(CMDPSTATE *state)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+SetAllPreds	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::SetAllPreds(CMDPSTATE *state)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+SizeofCreatedEnv	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::SizeofCreatedEnv()$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+State	include/footstep_planner/State.h	/^class State$/;"	c	namespace:footstep_planner
+State	src/State.cpp	/^State::State()$/;"	f	class:footstep_planner::State
+State	src/State.cpp	/^State::State(double x, double y, double theta, Leg leg)$/;"	f	class:footstep_planner::State
+TWO_PI	include/footstep_planner/helper.h	/^static const double TWO_PI = 2 * M_PI;$/;"	m	namespace:footstep_planner
+activeCallback	src/FootstepNavigation.cpp	/^FootstepNavigation::activeCallback()$/;"	f	class:footstep_planner::FootstepNavigation
+angle_cell_2_state	include/footstep_planner/helper.h	/^inline double angle_cell_2_state(int angle, int angle_bin_num)$/;"	f	namespace:footstep_planner
+angle_state_2_cell	include/footstep_planner/helper.h	/^inline int angle_state_2_cell(double angle, int angle_bin_num)$/;"	f	namespace:footstep_planner
+broadcastExpandedNodesVis	src/FootstepPlanner.cpp	/^FootstepPlanner::broadcastExpandedNodesVis()$/;"	f	class:footstep_planner::FootstepPlanner
+broadcastFootstepPathVis	src/FootstepPlanner.cpp	/^FootstepPlanner::broadcastFootstepPathVis()$/;"	f	class:footstep_planner::FootstepPlanner
+broadcastPathVis	src/FootstepPlanner.cpp	/^FootstepPlanner::broadcastPathVis()$/;"	f	class:footstep_planner::FootstepPlanner
+broadcastRandomNodesVis	src/FootstepPlanner.cpp	/^FootstepPlanner::broadcastRandomNodesVis()$/;"	f	class:footstep_planner::FootstepPlanner
+calc_hash_tag	include/footstep_planner/helper.h	/^inline unsigned int calc_hash_tag(int x, int y, int theta, int leg,$/;"	f	namespace:footstep_planner
+calculateDistances	src/PathCostHeuristic.cpp	/^PathCostHeuristic::calculateDistances(const PlanningState& from,$/;"	f	class:footstep_planner::PathCostHeuristic
+calculateForwardStep	src/Footstep.cpp	/^Footstep::calculateForwardStep(Leg leg, int global_theta,$/;"	f	class:footstep_planner::Footstep
+callback	scripts/corrected_initialpose.py	/^def callback(pose, pub):$/;"	f
+cell_2_state	include/footstep_planner/helper.h	/^inline double cell_2_state(int value, double cell_size)$/;"	f	namespace:footstep_planner
+cell_size	include/footstep_planner/FootstepPlannerEnvironment.h	/^  double cell_size;$/;"	m	struct:footstep_planner::environment_params
+checkblock	src/FootstepNavigation.cpp	/^bool FootstepNavigation::checkblock(gridmap_2d::GridMap2DPtr map)$/;"	f	class:footstep_planner::FootstepNavigation
+clearFootstepPathVis	src/FootstepPlanner.cpp	/^FootstepPlanner::clearFootstepPathVis(unsigned num_footsteps)$/;"	f	class:footstep_planner::FootstepPlanner
+closeToGoal	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::closeToGoal(const PlanningState& from)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+closeToStart	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::closeToStart(const PlanningState& from)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+collision_check	src/helper.cpp	/^collision_check(double x, double y, double theta, double height,$/;"	f	namespace:footstep_planner
+collision_check_accuracy	include/footstep_planner/FootstepPlannerEnvironment.h	/^  int    collision_check_accuracy;$/;"	m	struct:footstep_planner::environment_params
+cont_val	include/footstep_planner/helper.h	/^inline double cont_val(int length, double cell_size)$/;"	f	namespace:footstep_planner
+createHashEntryIfNotExists	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::createHashEntryIfNotExists($/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+createNewHashEntry	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::createNewHashEntry(const PlanningState& s)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+createNewHashEntry	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::createNewHashEntry(const State& s)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+cvMmScale	include/footstep_planner/FootstepPlannerEnvironment.h	/^  static const int cvMmScale = 1000;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+cvObstacleThreshold	include/footstep_planner/PathCostHeuristic.h	/^  static const int cvObstacleThreshold = 200;$/;"	m	class:footstep_planner::PathCostHeuristic
+disc_val	include/footstep_planner/helper.h	/^inline int disc_val(double length, double cell_size)$/;"	f	namespace:footstep_planner
+doneCallback	src/FootstepNavigation.cpp	/^FootstepNavigation::doneCallback($/;"	f	class:footstep_planner::FootstepNavigation
+environment_params	include/footstep_planner/FootstepPlannerEnvironment.h	/^struct environment_params$/;"	s	namespace:footstep_planner
+euclidean_distance	include/footstep_planner/helper.h	/^inline double euclidean_distance(double x1, double y1, double x2, double y2)$/;"	f	namespace:footstep_planner
+euclidean_distance	include/footstep_planner/helper.h	/^inline double euclidean_distance(int x1, int y1, int x2, int y2)$/;"	f	namespace:footstep_planner
+euclidean_distance_sq	include/footstep_planner/helper.h	/^inline double euclidean_distance_sq(double x1, double y1, double x2,$/;"	f	namespace:footstep_planner
+euclidean_distance_sq	include/footstep_planner/helper.h	/^inline double euclidean_distance_sq(int x1, int y1, int x2, int y2)$/;"	f	namespace:footstep_planner
+executeFootsteps	src/FootstepNavigation.cpp	/^FootstepNavigation::executeFootsteps()$/;"	f	class:footstep_planner::FootstepNavigation
+executeFootstepsFast	src/FootstepNavigation.cpp	/^FootstepNavigation::executeFootstepsFast()$/;"	f	class:footstep_planner::FootstepNavigation
+exp_states_2d_iter_t	include/footstep_planner/FootstepPlannerEnvironment.h	/^  typedef exp_states_2d_t::const_iterator exp_states_2d_iter_t;$/;"	t	class:footstep_planner::FootstepPlannerEnvironment
+exp_states_2d_t	include/footstep_planner/FootstepPlannerEnvironment.h	/^  typedef std::tr1::unordered_set<std::pair<int,int>, IntPairHash > exp_states_2d_t;$/;"	t	class:footstep_planner::FootstepPlannerEnvironment
+exp_states_iter_t	include/footstep_planner/FootstepPlannerEnvironment.h	/^  typedef exp_states_t::const_iterator exp_states_iter_t;$/;"	t	class:footstep_planner::FootstepPlannerEnvironment
+exp_states_t	include/footstep_planner/FootstepPlannerEnvironment.h	/^  typedef std::vector<int> exp_states_t;$/;"	t	class:footstep_planner::FootstepPlannerEnvironment
+extractFootstepsSrv	src/FootstepPlanner.cpp	/^FootstepPlanner::extractFootstepsSrv(std::vector<humanoid_nav_msgs::StepTarget> & footsteps) const{$/;"	f	class:footstep_planner::FootstepPlanner
+extractPath	src/FootstepPlanner.cpp	/^FootstepPlanner::extractPath(const std::vector<int>& state_ids)$/;"	f	class:footstep_planner::FootstepPlanner
+feedbackCallback	src/FootstepNavigation.cpp	/^FootstepNavigation::feedbackCallback($/;"	f	class:footstep_planner::FootstepNavigation
+footPoseToMarker	src/FootstepPlanner.cpp	/^FootstepPlanner::footPoseToMarker(const State& foot_pose,$/;"	f	class:footstep_planner::FootstepPlanner
+foot_origin_shift_x	include/footstep_planner/FootstepPlannerEnvironment.h	/^  double foot_origin_shift_x, foot_origin_shift_y;$/;"	m	struct:footstep_planner::environment_params
+foot_origin_shift_y	include/footstep_planner/FootstepPlannerEnvironment.h	/^  double foot_origin_shift_x, foot_origin_shift_y;$/;"	m	struct:footstep_planner::environment_params
+footsize_x	include/footstep_planner/FootstepPlannerEnvironment.h	/^  double footsize_x, footsize_y, footsize_z;$/;"	m	struct:footstep_planner::environment_params
+footsize_y	include/footstep_planner/FootstepPlannerEnvironment.h	/^  double footsize_x, footsize_y, footsize_z;$/;"	m	struct:footstep_planner::environment_params
+footsize_z	include/footstep_planner/FootstepPlannerEnvironment.h	/^  double footsize_x, footsize_y, footsize_z;$/;"	m	struct:footstep_planner::environment_params
+footstep_planner	include/footstep_planner/Footstep.h	/^namespace footstep_planner$/;"	n
+footstep_planner	include/footstep_planner/FootstepNavigation.h	/^namespace footstep_planner$/;"	n
+footstep_planner	include/footstep_planner/FootstepPlanner.h	/^namespace footstep_planner$/;"	n
+footstep_planner	include/footstep_planner/FootstepPlannerEnvironment.h	/^namespace footstep_planner$/;"	n
+footstep_planner	include/footstep_planner/FootstepPlannerNode.h	/^namespace footstep_planner$/;"	n
+footstep_planner	include/footstep_planner/Heuristic.h	/^namespace footstep_planner$/;"	n
+footstep_planner	include/footstep_planner/PathCostHeuristic.h	/^namespace footstep_planner$/;"	n
+footstep_planner	include/footstep_planner/PlanningState.h	/^namespace footstep_planner$/;"	n
+footstep_planner	include/footstep_planner/PlanningStateChangeQuery.h	/^namespace footstep_planner$/;"	n
+footstep_planner	include/footstep_planner/State.h	/^namespace footstep_planner$/;"	n
+footstep_planner	include/footstep_planner/helper.h	/^namespace footstep_planner$/;"	n
+footstep_planner	src/Footstep.cpp	/^namespace footstep_planner$/;"	n	file:
+footstep_planner	src/FootstepNavigation.cpp	/^namespace footstep_planner$/;"	n	file:
+footstep_planner	src/FootstepPlanner.cpp	/^namespace footstep_planner$/;"	n	file:
+footstep_planner	src/FootstepPlannerEnvironment.cpp	/^namespace footstep_planner$/;"	n	file:
+footstep_planner	src/FootstepPlannerNode.cpp	/^namespace footstep_planner$/;"	n	file:
+footstep_planner	src/Heuristic.cpp	/^namespace footstep_planner$/;"	n	file:
+footstep_planner	src/PathCostHeuristic.cpp	/^namespace footstep_planner$/;"	n	file:
+footstep_planner	src/PlanningState.cpp	/^namespace footstep_planner$/;"	n	file:
+footstep_planner	src/PlanningStateChangeQuery.cpp	/^namespace footstep_planner$/;"	n	file:
+footstep_planner	src/State.cpp	/^namespace footstep_planner$/;"	n	file:
+footstep_planner	src/helper.cpp	/^namespace footstep_planner$/;"	n	file:
+footstep_set	include/footstep_planner/FootstepPlannerEnvironment.h	/^  std::vector<Footstep> footstep_set;$/;"	m	struct:footstep_planner::environment_params
+footstep_xy	include/footstep_planner/Footstep.h	/^  typedef std::pair<int, int> footstep_xy;$/;"	t	class:footstep_planner::Footstep
+forward_search	include/footstep_planner/FootstepPlannerEnvironment.h	/^  bool   forward_search;$/;"	m	struct:footstep_planner::environment_params
+getExpandedStatesEnd	include/footstep_planner/FootstepPlannerEnvironment.h	/^  exp_states_2d_iter_t getExpandedStatesEnd()$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+getExpandedStatesStart	include/footstep_planner/FootstepPlannerEnvironment.h	/^  exp_states_2d_iter_t getExpandedStatesStart()$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+getFootPose	src/FootstepPlanner.cpp	/^FootstepPlanner::getFootPose(const State& robot, Leg leg)$/;"	f	class:footstep_planner::FootstepPlanner
+getFootTransform	src/FootstepNavigation.cpp	/^FootstepNavigation::getFootTransform(const std::string& foot_id,$/;"	f	class:footstep_planner::FootstepNavigation
+getFootstep	src/FootstepNavigation.cpp	/^FootstepNavigation::getFootstep(const tf::Pose& from,$/;"	f	class:footstep_planner::FootstepNavigation
+getFootstepsFromPath	src/FootstepNavigation.cpp	/^FootstepNavigation::getFootstepsFromPath($/;"	f	class:footstep_planner::FootstepNavigation
+getHValue	src/Heuristic.cpp	/^EuclStepCostHeuristic::getHValue(const PlanningState& from,$/;"	f	class:footstep_planner::EuclStepCostHeuristic
+getHValue	src/Heuristic.cpp	/^EuclideanHeuristic::getHValue(const PlanningState& from,$/;"	f	class:footstep_planner::EuclideanHeuristic
+getHValue	src/PathCostHeuristic.cpp	/^PathCostHeuristic::getHValue(const PlanningState& current,$/;"	f	class:footstep_planner::PathCostHeuristic
+getHashEntry	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::getHashEntry(const PlanningState& s)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+getHashEntry	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::getHashEntry(const State& s)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+getHashTag	include/footstep_planner/PlanningState.h	/^  unsigned int getHashTag() const { return ivHashTag; }$/;"	f	class:footstep_planner::PlanningState
+getHeuristicType	include/footstep_planner/Heuristic.h	/^  HeuristicType getHeuristicType() const { return ivHeuristicType; }$/;"	f	class:footstep_planner::Heuristic
+getId	include/footstep_planner/PlanningState.h	/^  int getId() const { return ivId; }$/;"	f	class:footstep_planner::PlanningState
+getLeg	include/footstep_planner/PlanningState.h	/^  Leg getLeg() const { return ivLeg; }$/;"	f	class:footstep_planner::PlanningState
+getLeg	include/footstep_planner/State.h	/^  Leg getLeg() const { return ivLeg; }$/;"	f	class:footstep_planner::State
+getMap	include/footstep_planner/FootstepPlanner.h	/^  gridmap_2d::GridMap2DPtr getMap() { return ivMapPtr; }$/;"	f	class:footstep_planner::FootstepPlanner
+getNumExpandedStates	include/footstep_planner/FootstepPlanner.h	/^  size_t getNumExpandedStates() const$/;"	f	class:footstep_planner::FootstepPlanner
+getNumExpandedStates	include/footstep_planner/FootstepPlannerEnvironment.h	/^  int getNumExpandedStates() { return ivNumExpandedStates; }$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+getNumFootPoses	include/footstep_planner/FootstepPlanner.h	/^  size_t getNumFootPoses() const { return ivPath.size(); }$/;"	f	class:footstep_planner::FootstepPlanner
+getPathBegin	include/footstep_planner/FootstepPlanner.h	/^  state_iter_t getPathBegin() const { return ivPath.begin(); }$/;"	f	class:footstep_planner::FootstepPlanner
+getPathCosts	include/footstep_planner/FootstepPlanner.h	/^  double getPathCosts() const { return ivPathCost; }$/;"	f	class:footstep_planner::FootstepPlanner
+getPathEnd	include/footstep_planner/FootstepPlanner.h	/^  state_iter_t getPathEnd() const { return ivPath.end(); }$/;"	f	class:footstep_planner::FootstepPlanner
+getPathSize	include/footstep_planner/FootstepPlanner.h	/^  int getPathSize() { return ivPath.size(); }$/;"	f	class:footstep_planner::FootstepPlanner
+getPredecessors	src/PlanningStateChangeQuery.cpp	/^PlanningStateChangeQuery::getPredecessors() const$/;"	f	class:footstep_planner::PlanningStateChangeQuery
+getPredsOfGridCells	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::getPredsOfGridCells($/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+getRandomStatesEnd	include/footstep_planner/FootstepPlannerEnvironment.h	/^  exp_states_iter_t getRandomStatesEnd()$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+getRandomStatesStart	include/footstep_planner/FootstepPlannerEnvironment.h	/^  exp_states_iter_t getRandomStatesStart()$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+getStartFootLeft	include/footstep_planner/FootstepPlanner.h	/^  State getStartFootLeft() { return ivStartFootLeft; }$/;"	f	class:footstep_planner::FootstepPlanner
+getStartFootRight	include/footstep_planner/FootstepPlanner.h	/^  State getStartFootRight() { return ivStartFootRight; }$/;"	f	class:footstep_planner::FootstepPlanner
+getState	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::getState(unsigned int id, State* s)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+getState	src/PlanningState.cpp	/^PlanningState::getState(double cell_size, int num_angle_bins)$/;"	f	class:footstep_planner::PlanningState
+getSuccessors	src/PlanningStateChangeQuery.cpp	/^PlanningStateChangeQuery::getSuccessors() const$/;"	f	class:footstep_planner::PlanningStateChangeQuery
+getSuccsOfGridCells	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::getSuccsOfGridCells($/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+getTheta	include/footstep_planner/PlanningState.h	/^  int getTheta() const { return ivTheta; }$/;"	f	class:footstep_planner::PlanningState
+getTheta	include/footstep_planner/State.h	/^  double getTheta() const { return ivTheta; }$/;"	f	class:footstep_planner::State
+getX	include/footstep_planner/PlanningState.h	/^  int getX() const { return ivX; }$/;"	f	class:footstep_planner::PlanningState
+getX	include/footstep_planner/State.h	/^  double getX() const { return ivX; }$/;"	f	class:footstep_planner::State
+getY	include/footstep_planner/PlanningState.h	/^  int getY() const { return ivY; }$/;"	f	class:footstep_planner::PlanningState
+getY	include/footstep_planner/State.h	/^  double getY() const { return ivY; };$/;"	f	class:footstep_planner::State
+goal	scripts/plan_footsteps.py	/^      goal = Pose2D()$/;"	v
+goalPoseCallback	src/FootstepNavigation.cpp	/^FootstepNavigation::goalPoseCallback($/;"	f	class:footstep_planner::FootstepNavigation
+goalPoseCallback	src/FootstepPlanner.cpp	/^FootstepPlanner::goalPoseCallback($/;"	f	class:footstep_planner::FootstepPlanner
+goal_left	scripts/plan_footsteps.py	/^      goal_left = StepTarget()$/;"	v
+goal_right	scripts/plan_footsteps.py	/^      goal_right = StepTarget()$/;"	v
+grid_cost	include/footstep_planner/helper.h	/^inline double grid_cost(int x1, int y1, int x2, int y2, float cell_size)$/;"	f	namespace:footstep_planner
+hash_table_size	include/footstep_planner/FootstepPlannerEnvironment.h	/^  int    hash_table_size;$/;"	m	struct:footstep_planner::environment_params
+heuristic	include/footstep_planner/FootstepPlannerEnvironment.h	/^  boost::shared_ptr<Heuristic> heuristic;$/;"	m	struct:footstep_planner::environment_params
+heuristic_scale	include/footstep_planner/FootstepPlannerEnvironment.h	/^  double heuristic_scale;$/;"	m	struct:footstep_planner::environment_params
+imap	include/footstep_planner/FootstepNavigation.h	/^  int imap;$/;"	m	class:footstep_planner::FootstepNavigation
+init	src/Footstep.cpp	/^Footstep::init(double x, double y)$/;"	f	class:footstep_planner::Footstep
+int_hash	include/footstep_planner/helper.h	/^inline unsigned int int_hash(int key)$/;"	f	namespace:footstep_planner
+ivAccuracyTheta	include/footstep_planner/FootstepNavigation.h	/^  double ivAccuracyTheta;$/;"	m	class:footstep_planner::FootstepNavigation
+ivAccuracyX	include/footstep_planner/FootstepNavigation.h	/^  double ivAccuracyX;$/;"	m	class:footstep_planner::FootstepNavigation
+ivAccuracyY	include/footstep_planner/FootstepNavigation.h	/^  double ivAccuracyY;$/;"	m	class:footstep_planner::FootstepNavigation
+ivCellSize	include/footstep_planner/Footstep.h	/^  double ivCellSize;$/;"	m	class:footstep_planner::Footstep
+ivCellSize	include/footstep_planner/FootstepNavigation.h	/^  double ivCellSize;$/;"	m	class:footstep_planner::FootstepNavigation
+ivCellSize	include/footstep_planner/FootstepPlannerEnvironment.h	/^  const double ivCellSize;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivCellSize	include/footstep_planner/Heuristic.h	/^  double ivCellSize;$/;"	m	class:footstep_planner::Heuristic
+ivChangedCellsLimit	include/footstep_planner/FootstepPlanner.h	/^   int ivChangedCellsLimit;$/;"	m	class:footstep_planner::FootstepPlanner
+ivClipFootstepSrv	include/footstep_planner/FootstepNavigation.h	/^  ros::ServiceClient ivClipFootstepSrv;$/;"	m	class:footstep_planner::FootstepNavigation
+ivCollisionCheckAccuracy	include/footstep_planner/FootstepPlanner.h	/^  int    ivCollisionCheckAccuracy;$/;"	m	class:footstep_planner::FootstepPlanner
+ivCollisionCheckAccuracy	include/footstep_planner/FootstepPlannerEnvironment.h	/^  const int ivCollisionCheckAccuracy;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivControlStepIdx	include/footstep_planner/FootstepNavigation.h	/^  int ivControlStepIdx;$/;"	m	class:footstep_planner::FootstepNavigation
+ivDiffAngleCost	include/footstep_planner/Heuristic.h	/^  const double ivDiffAngleCost;$/;"	m	class:footstep_planner::EuclStepCostHeuristic
+ivDiffAngleCost	include/footstep_planner/PathCostHeuristic.h	/^  double ivDiffAngleCost;$/;"	m	class:footstep_planner::PathCostHeuristic
+ivDiscPredecessorLeft	include/footstep_planner/Footstep.h	/^  std::vector<footstep_xy> ivDiscPredecessorLeft;$/;"	m	class:footstep_planner::Footstep
+ivDiscPredecessorRight	include/footstep_planner/Footstep.h	/^  std::vector<footstep_xy> ivDiscPredecessorRight;$/;"	m	class:footstep_planner::Footstep
+ivDiscSuccessorLeft	include/footstep_planner/Footstep.h	/^  std::vector<footstep_xy> ivDiscSuccessorLeft;$/;"	m	class:footstep_planner::Footstep
+ivDiscSuccessorRight	include/footstep_planner/Footstep.h	/^  std::vector<footstep_xy> ivDiscSuccessorRight;$/;"	m	class:footstep_planner::Footstep
+ivEnvironmentParams	include/footstep_planner/FootstepPlanner.h	/^  environment_params ivEnvironmentParams;$/;"	m	class:footstep_planner::FootstepPlanner
+ivExecutingFootsteps	include/footstep_planner/FootstepNavigation.h	/^  bool ivExecutingFootsteps;$/;"	m	class:footstep_planner::FootstepNavigation
+ivExecutionLock	include/footstep_planner/FootstepNavigation.h	/^  boost::mutex ivExecutionLock;$/;"	m	class:footstep_planner::FootstepNavigation
+ivExecutionShift	include/footstep_planner/FootstepNavigation.h	/^  const int ivExecutionShift;$/;"	m	class:footstep_planner::FootstepNavigation
+ivExpandedStates	include/footstep_planner/FootstepPlannerEnvironment.h	/^  exp_states_2d_t ivExpandedStates;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivExpandedStatesVisPub	include/footstep_planner/FootstepPlanner.h	/^  ros::Publisher  ivExpandedStatesVisPub;$/;"	m	class:footstep_planner::FootstepPlanner
+ivFeedbackFrequency	include/footstep_planner/FootstepNavigation.h	/^  double ivFeedbackFrequency;$/;"	m	class:footstep_planner::FootstepNavigation
+ivFootSeparation	include/footstep_planner/FootstepPlanner.h	/^  double ivFootSeparation;$/;"	m	class:footstep_planner::FootstepPlanner
+ivFootsizeX	include/footstep_planner/FootstepPlannerEnvironment.h	/^  const double ivFootsizeX;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivFootsizeY	include/footstep_planner/FootstepPlannerEnvironment.h	/^  const double ivFootsizeY;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivFootstepExecutionPtr	include/footstep_planner/FootstepNavigation.h	/^  boost::shared_ptr<boost::thread> ivFootstepExecutionPtr;$/;"	m	class:footstep_planner::FootstepNavigation
+ivFootstepPathVisPub	include/footstep_planner/FootstepPlanner.h	/^  ros::Publisher  ivFootstepPathVisPub;$/;"	m	class:footstep_planner::FootstepPlanner
+ivFootstepPlanFeetService	include/footstep_planner/FootstepPlanner.h	/^  ros::ServiceServer ivFootstepPlanFeetService;$/;"	m	class:footstep_planner::FootstepPlanner
+ivFootstepPlanFeetService	include/footstep_planner/FootstepPlannerNode.h	/^  ros::ServiceServer ivFootstepPlanFeetService;$/;"	m	class:footstep_planner::FootstepPlannerNode
+ivFootstepPlanService	include/footstep_planner/FootstepPlanner.h	/^  ros::ServiceServer ivFootstepPlanService;$/;"	m	class:footstep_planner::FootstepPlanner
+ivFootstepPlanService	include/footstep_planner/FootstepPlannerNode.h	/^  ros::ServiceServer ivFootstepPlanService;$/;"	m	class:footstep_planner::FootstepPlannerNode
+ivFootstepPlanService	src/footstep_planner_walls.cpp	/^  ros::ServiceServer ivFootstepPlanService;$/;"	m	class:FootstepPlannerWallsNode	file:
+ivFootstepPlanner	include/footstep_planner/FootstepPlannerNode.h	/^  FootstepPlanner ivFootstepPlanner;$/;"	m	class:footstep_planner::FootstepPlannerNode
+ivFootstepPlanner	src/footstep_planner_walls.cpp	/^  footstep_planner::FootstepPlanner ivFootstepPlanner;$/;"	m	class:FootstepPlannerWallsNode	file:
+ivFootstepSet	include/footstep_planner/FootstepPlannerEnvironment.h	/^  const std::vector<Footstep>& ivFootstepSet;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivFootstepSrv	include/footstep_planner/FootstepNavigation.h	/^  ros::ServiceClient ivFootstepSrv;$/;"	m	class:footstep_planner::FootstepNavigation
+ivFootstepWallDist	src/footstep_planner_walls.cpp	/^  double ivFootstepWallDist;$/;"	m	class:FootstepPlannerWallsNode	file:
+ivFootstepsExecution	include/footstep_planner/FootstepNavigation.h	/^      humanoid_nav_msgs::ExecFootstepsAction> ivFootstepsExecution;$/;"	m	class:footstep_planner::FootstepNavigation
+ivForwardSearch	include/footstep_planner/FootstepNavigation.h	/^  bool ivForwardSearch;$/;"	m	class:footstep_planner::FootstepNavigation
+ivForwardSearch	include/footstep_planner/FootstepPlannerEnvironment.h	/^  const bool ivForwardSearch;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivGoalFootLeft	include/footstep_planner/FootstepPlanner.h	/^  State ivGoalFootLeft;$/;"	m	class:footstep_planner::FootstepPlanner
+ivGoalFootRight	include/footstep_planner/FootstepPlanner.h	/^  State ivGoalFootRight;$/;"	m	class:footstep_planner::FootstepPlanner
+ivGoalPoseSetUp	include/footstep_planner/FootstepPlanner.h	/^  bool   ivStartPoseSetUp, ivGoalPoseSetUp;$/;"	m	class:footstep_planner::FootstepPlanner
+ivGoalPoseSub	include/footstep_planner/FootstepNavigation.h	/^  ros::Subscriber ivGoalPoseSub;$/;"	m	class:footstep_planner::FootstepNavigation
+ivGoalPoseSub	include/footstep_planner/FootstepPlannerNode.h	/^  ros::Subscriber ivGoalPoseSub;$/;"	m	class:footstep_planner::FootstepPlannerNode
+ivGoalPoseSub	src/footstep_planner_walls.cpp	/^  ros::Subscriber ivGoalPoseSub, ivGridMapSub, ivWallMapSub, ivStartPoseSub, ivRobotPoseSub;$/;"	m	class:FootstepPlannerWallsNode	file:
+ivGoalX	include/footstep_planner/PathCostHeuristic.h	/^  int ivGoalX;$/;"	m	class:footstep_planner::PathCostHeuristic
+ivGoalY	include/footstep_planner/PathCostHeuristic.h	/^  int ivGoalY;$/;"	m	class:footstep_planner::PathCostHeuristic
+ivGridMap	src/footstep_planner_walls.cpp	/^  GridMap2DPtr ivGridMap;$/;"	m	class:FootstepPlannerWallsNode	file:
+ivGridMapSub	include/footstep_planner/FootstepNavigation.h	/^  ros::Subscriber ivGridMapSub;$/;"	m	class:footstep_planner::FootstepNavigation
+ivGridMapSub	include/footstep_planner/FootstepPlanner.h	/^  ros::Subscriber ivGridMapSub;$/;"	m	class:footstep_planner::FootstepPlanner
+ivGridMapSub	include/footstep_planner/FootstepPlannerNode.h	/^  ros::Subscriber ivGridMapSub;$/;"	m	class:footstep_planner::FootstepPlannerNode
+ivGridMapSub	src/footstep_planner_walls.cpp	/^  ros::Subscriber ivGoalPoseSub, ivGridMapSub, ivWallMapSub, ivStartPoseSub, ivRobotPoseSub;$/;"	m	class:FootstepPlannerWallsNode	file:
+ivGridSearchPtr	include/footstep_planner/PathCostHeuristic.h	/^  boost::shared_ptr<SBPL2DGridSearch> ivGridSearchPtr;$/;"	m	class:footstep_planner::PathCostHeuristic
+ivHashTableSize	include/footstep_planner/FootstepPlannerEnvironment.h	/^  const int ivHashTableSize;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivHashTag	include/footstep_planner/PlanningState.h	/^  unsigned int ivHashTag;$/;"	m	class:footstep_planner::PlanningState
+ivHeuristicConstPtr	include/footstep_planner/FootstepPlannerEnvironment.h	/^  const boost::shared_ptr<Heuristic> ivHeuristicConstPtr;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivHeuristicExpired	include/footstep_planner/FootstepPlannerEnvironment.h	/^  bool ivHeuristicExpired;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivHeuristicPathVisPub	include/footstep_planner/FootstepPlanner.h	/^  ros::Publisher  ivHeuristicPathVisPub;$/;"	m	class:footstep_planner::FootstepPlanner
+ivHeuristicScale	include/footstep_planner/FootstepPlannerEnvironment.h	/^  double ivHeuristicScale;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivHeuristicType	include/footstep_planner/Heuristic.h	/^  const HeuristicType ivHeuristicType;$/;"	m	class:footstep_planner::Heuristic
+ivId	include/footstep_planner/PlanningState.h	/^  int ivId;$/;"	m	class:footstep_planner::PlanningState
+ivIdFootLeft	include/footstep_planner/FootstepNavigation.h	/^  std::string ivIdFootLeft;$/;"	m	class:footstep_planner::FootstepNavigation
+ivIdFootRight	include/footstep_planner/FootstepNavigation.h	/^  std::string ivIdFootRight;$/;"	m	class:footstep_planner::FootstepNavigation
+ivIdGoalFootLeft	include/footstep_planner/FootstepPlannerEnvironment.h	/^  int ivIdGoalFootLeft;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivIdGoalFootRight	include/footstep_planner/FootstepPlannerEnvironment.h	/^  int ivIdGoalFootRight;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivIdMapFrame	include/footstep_planner/FootstepNavigation.h	/^  std::string ivIdMapFrame;$/;"	m	class:footstep_planner::FootstepNavigation
+ivIdPlanningGoal	include/footstep_planner/FootstepPlannerEnvironment.h	/^  int ivIdPlanningGoal;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivIdStartFootLeft	include/footstep_planner/FootstepPlannerEnvironment.h	/^  int ivIdStartFootLeft;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivIdStartFootRight	include/footstep_planner/FootstepPlannerEnvironment.h	/^  int ivIdStartFootRight;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivInflationRadius	include/footstep_planner/PathCostHeuristic.h	/^  double ivInflationRadius;$/;"	m	class:footstep_planner::PathCostHeuristic
+ivInitialEpsilon	include/footstep_planner/FootstepPlanner.h	/^  double ivInitialEpsilon;$/;"	m	class:footstep_planner::FootstepPlanner
+ivLastMarkerMsgSize	include/footstep_planner/FootstepPlanner.h	/^  int    ivLastMarkerMsgSize;$/;"	m	class:footstep_planner::FootstepPlanner
+ivLeg	include/footstep_planner/PlanningState.h	/^  Leg	ivLeg;$/;"	m	class:footstep_planner::PlanningState
+ivLeg	include/footstep_planner/State.h	/^  Leg ivLeg;$/;"	m	class:footstep_planner::State
+ivMapPtr	include/footstep_planner/FootstepPlanner.h	/^  gridmap_2d::GridMap2DPtr ivMapPtr;$/;"	m	class:footstep_planner::FootstepPlanner
+ivMapPtr	include/footstep_planner/FootstepPlannerEnvironment.h	/^  boost::shared_ptr<gridmap_2d::GridMap2D> ivMapPtr;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivMapPtr	include/footstep_planner/PathCostHeuristic.h	/^  gridmap_2d::GridMap2DPtr ivMapPtr;$/;"	m	class:footstep_planner::PathCostHeuristic
+ivMarkerNamespace	include/footstep_planner/FootstepPlanner.h	/^  std::string ivMarkerNamespace;$/;"	m	class:footstep_planner::FootstepPlanner
+ivMaxFootstepTheta	include/footstep_planner/FootstepPlannerEnvironment.h	/^  int ivMaxFootstepTheta;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivMaxFootstepX	include/footstep_planner/FootstepPlannerEnvironment.h	/^  const int ivMaxFootstepX;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivMaxFootstepY	include/footstep_planner/FootstepPlannerEnvironment.h	/^  const int ivMaxFootstepY;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivMaxHashSize	include/footstep_planner/Footstep.h	/^  int ivMaxHashSize;$/;"	m	class:footstep_planner::Footstep
+ivMaxInvFootstepTheta	include/footstep_planner/FootstepPlannerEnvironment.h	/^  int ivMaxInvFootstepTheta;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivMaxInvFootstepX	include/footstep_planner/FootstepPlannerEnvironment.h	/^  const int ivMaxInvFootstepX;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivMaxInvFootstepY	include/footstep_planner/FootstepPlannerEnvironment.h	/^  const int ivMaxInvFootstepY;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivMaxInvStepTheta	include/footstep_planner/FootstepNavigation.h	/^  double ivMaxInvStepTheta;$/;"	m	class:footstep_planner::FootstepNavigation
+ivMaxInvStepX	include/footstep_planner/FootstepNavigation.h	/^  double ivMaxInvStepX;$/;"	m	class:footstep_planner::FootstepNavigation
+ivMaxInvStepY	include/footstep_planner/FootstepNavigation.h	/^  double ivMaxInvStepY;$/;"	m	class:footstep_planner::FootstepNavigation
+ivMaxSearchTime	include/footstep_planner/FootstepPlanner.h	/^  double ivMaxSearchTime;$/;"	m	class:footstep_planner::FootstepPlanner
+ivMaxStepTheta	include/footstep_planner/FootstepNavigation.h	/^  double ivMaxStepTheta;$/;"	m	class:footstep_planner::FootstepNavigation
+ivMaxStepWidth	include/footstep_planner/FootstepPlanner.h	/^  double ivMaxStepWidth;$/;"	m	class:footstep_planner::FootstepPlanner
+ivMaxStepWidth	include/footstep_planner/FootstepPlannerEnvironment.h	/^  double ivMaxStepWidth;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivMaxStepWidth	include/footstep_planner/Heuristic.h	/^  const double ivMaxStepWidth;$/;"	m	class:footstep_planner::EuclStepCostHeuristic
+ivMaxStepWidth	include/footstep_planner/PathCostHeuristic.h	/^  double ivMaxStepWidth;$/;"	m	class:footstep_planner::PathCostHeuristic
+ivMaxStepX	include/footstep_planner/FootstepNavigation.h	/^  double ivMaxStepX;$/;"	m	class:footstep_planner::FootstepNavigation
+ivMaxStepY	include/footstep_planner/FootstepNavigation.h	/^  double ivMaxStepY;$/;"	m	class:footstep_planner::FootstepNavigation
+ivNeighbors	include/footstep_planner/PlanningStateChangeQuery.h	/^  const std::vector<int>& ivNeighbors;$/;"	m	class:footstep_planner::PlanningStateChangeQuery
+ivNh	src/footstep_planner_walls.cpp	/^  ros::NodeHandle ivNh;$/;"	m	class:FootstepPlannerWallsNode	file:
+ivNumAngleBins	include/footstep_planner/Footstep.h	/^  int ivNumAngleBins;$/;"	m	class:footstep_planner::Footstep
+ivNumAngleBins	include/footstep_planner/FootstepNavigation.h	/^  int    ivNumAngleBins;$/;"	m	class:footstep_planner::FootstepNavigation
+ivNumAngleBins	include/footstep_planner/FootstepPlannerEnvironment.h	/^  const int ivNumAngleBins;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivNumAngleBins	include/footstep_planner/Heuristic.h	/^  int    ivNumAngleBins;$/;"	m	class:footstep_planner::Heuristic
+ivNumExpandedStates	include/footstep_planner/FootstepPlannerEnvironment.h	/^  size_t ivNumExpandedStates;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivNumRandomNodes	include/footstep_planner/FootstepPlannerEnvironment.h	/^  const int ivNumRandomNodes;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivOriginFootShiftX	include/footstep_planner/FootstepPlannerEnvironment.h	/^  const double ivOriginFootShiftX;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivOriginFootShiftY	include/footstep_planner/FootstepPlannerEnvironment.h	/^  const double ivOriginFootShiftY;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivPath	include/footstep_planner/FootstepPlanner.h	/^  std::vector<State> ivPath;$/;"	m	class:footstep_planner::FootstepPlanner
+ivPathCost	include/footstep_planner/FootstepPlanner.h	/^  double ivPathCost;$/;"	m	class:footstep_planner::FootstepPlanner
+ivPathCostHeuristicPtr	include/footstep_planner/FootstepPlanner.h	/^  boost::shared_ptr<const PathCostHeuristic> ivPathCostHeuristicPtr;$/;"	m	class:footstep_planner::FootstepPlanner
+ivPathVisPub	include/footstep_planner/FootstepPlanner.h	/^  ros::Publisher  ivPathVisPub;$/;"	m	class:footstep_planner::FootstepPlanner
+ivPlanner	include/footstep_planner/FootstepNavigation.h	/^  FootstepPlanner ivPlanner;$/;"	m	class:footstep_planner::FootstepNavigation
+ivPlannerEnvironmentPtr	include/footstep_planner/FootstepPlanner.h	/^  boost::shared_ptr<FootstepPlannerEnvironment> ivPlannerEnvironmentPtr;$/;"	m	class:footstep_planner::FootstepPlanner
+ivPlannerPtr	include/footstep_planner/FootstepPlanner.h	/^  boost::shared_ptr<SBPLPlanner> ivPlannerPtr;$/;"	m	class:footstep_planner::FootstepPlanner
+ivPlannerType	include/footstep_planner/FootstepPlanner.h	/^  std::string ivPlannerType;$/;"	m	class:footstep_planner::FootstepPlanner
+ivPlanningStatesIds	include/footstep_planner/FootstepPlanner.h	/^  std::vector<int> ivPlanningStatesIds;$/;"	m	class:footstep_planner::FootstepPlanner
+ivRandomNodeDist	include/footstep_planner/FootstepPlannerEnvironment.h	/^  const int ivRandomNodeDist;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivRandomStates	include/footstep_planner/FootstepPlannerEnvironment.h	/^  exp_states_t ivRandomStates;  \/\/\/< random intermediate states for R*$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivRandomStatesVisPub	include/footstep_planner/FootstepPlanner.h	/^  ros::Publisher  ivRandomStatesVisPub;$/;"	m	class:footstep_planner::FootstepPlanner
+ivResetStepIdx	include/footstep_planner/FootstepNavigation.h	/^  int ivResetStepIdx;$/;"	m	class:footstep_planner::FootstepNavigation
+ivRobotPoseSub	include/footstep_planner/FootstepNavigation.h	/^  ros::Subscriber ivRobotPoseSub;$/;"	m	class:footstep_planner::FootstepNavigation
+ivRobotPoseSub	include/footstep_planner/FootstepPlannerNode.h	/^  ros::Subscriber ivRobotPoseSub;$/;"	m	class:footstep_planner::FootstepPlannerNode
+ivRobotPoseSub	src/footstep_planner_walls.cpp	/^  ros::Subscriber ivGoalPoseSub, ivGridMapSub, ivWallMapSub, ivStartPoseSub, ivRobotPoseSub;$/;"	m	class:FootstepPlannerWallsNode	file:
+ivSafeExecution	include/footstep_planner/FootstepNavigation.h	/^  bool ivSafeExecution;$/;"	m	class:footstep_planner::FootstepNavigation
+ivSearchUntilFirstSolution	include/footstep_planner/FootstepPlanner.h	/^  bool   ivSearchUntilFirstSolution;$/;"	m	class:footstep_planner::FootstepPlanner
+ivStartFootLeft	include/footstep_planner/FootstepPlanner.h	/^  State ivStartFootLeft;$/;"	m	class:footstep_planner::FootstepPlanner
+ivStartFootRight	include/footstep_planner/FootstepPlanner.h	/^  State ivStartFootRight;$/;"	m	class:footstep_planner::FootstepPlanner
+ivStartPoseSetUp	include/footstep_planner/FootstepPlanner.h	/^  bool   ivStartPoseSetUp, ivGoalPoseSetUp;$/;"	m	class:footstep_planner::FootstepPlanner
+ivStartPoseSub	include/footstep_planner/FootstepPlannerNode.h	/^  ros::Subscriber ivStartPoseSub;$/;"	m	class:footstep_planner::FootstepPlannerNode
+ivStartPoseSub	src/footstep_planner_walls.cpp	/^  ros::Subscriber ivGoalPoseSub, ivGridMapSub, ivWallMapSub, ivStartPoseSub, ivRobotPoseSub;$/;"	m	class:FootstepPlannerWallsNode	file:
+ivStartPoseVisPub	include/footstep_planner/FootstepPlanner.h	/^  ros::Publisher  ivStartPoseVisPub;$/;"	m	class:footstep_planner::FootstepPlanner
+ivStateArea	include/footstep_planner/FootstepPlannerEnvironment.h	/^  std::vector<int> ivStateArea;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivStateId2State	include/footstep_planner/FootstepPlannerEnvironment.h	/^  std::vector<const PlanningState*> ivStateId2State;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivStepCost	include/footstep_planner/FootstepPlannerEnvironment.h	/^  const int ivStepCost;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivStepCost	include/footstep_planner/Heuristic.h	/^  const double ivStepCost;$/;"	m	class:footstep_planner::EuclStepCostHeuristic
+ivStepCost	include/footstep_planner/PathCostHeuristic.h	/^  double ivStepCost;$/;"	m	class:footstep_planner::PathCostHeuristic
+ivStepRange	include/footstep_planner/FootstepNavigation.h	/^  std::vector<std::pair<double, double> > ivStepRange;$/;"	m	class:footstep_planner::FootstepNavigation
+ivTheta	include/footstep_planner/Footstep.h	/^  int ivTheta;$/;"	m	class:footstep_planner::Footstep
+ivTheta	include/footstep_planner/PlanningState.h	/^  int ivTheta;$/;"	m	class:footstep_planner::PlanningState
+ivTheta	include/footstep_planner/State.h	/^  double ivTheta;$/;"	m	class:footstep_planner::State
+ivTransformListener	include/footstep_planner/FootstepNavigation.h	/^  tf::TransformListener ivTransformListener;$/;"	m	class:footstep_planner::FootstepNavigation
+ivWallMapSub	src/footstep_planner_walls.cpp	/^  ros::Subscriber ivGoalPoseSub, ivGridMapSub, ivWallMapSub, ivStartPoseSub, ivRobotPoseSub;$/;"	m	class:FootstepPlannerWallsNode	file:
+ivX	include/footstep_planner/PlanningState.h	/^  int ivX;$/;"	m	class:footstep_planner::PlanningState
+ivX	include/footstep_planner/State.h	/^  double ivX;$/;"	m	class:footstep_planner::State
+ivY	include/footstep_planner/PlanningState.h	/^  int ivY;$/;"	m	class:footstep_planner::PlanningState
+ivY	include/footstep_planner/State.h	/^  double ivY;$/;"	m	class:footstep_planner::State
+ivpGrid	include/footstep_planner/PathCostHeuristic.h	/^  unsigned char** ivpGrid;$/;"	m	class:footstep_planner::PathCostHeuristic
+ivpStateHash2State	include/footstep_planner/FootstepPlannerEnvironment.h	/^  std::vector<const PlanningState*>* ivpStateHash2State;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+ivpStepRange	include/footstep_planner/FootstepPlannerEnvironment.h	/^  bool* ivpStepRange;$/;"	m	class:footstep_planner::FootstepPlannerEnvironment
+less	include/footstep_planner/FootstepPlannerEnvironment.h	/^  struct less$/;"	s	class:footstep_planner::FootstepPlannerEnvironment
+listener	scripts/corrected_initialpose.py	/^def listener():$/;"	f
+main	src/footstep_navigation.cpp	/^int main(int argc, char** argv)$/;"	f
+main	src/footstep_planner.cpp	/^int main(int argc, char** argv)$/;"	f
+main	src/footstep_planner_walls.cpp	/^int main(int argc, char** argv)$/;"	f
+mapCallback	src/FootstepNavigation.cpp	/^FootstepNavigation::mapCallback($/;"	f	class:footstep_planner::FootstepNavigation
+mapCallback	src/FootstepPlanner.cpp	/^FootstepPlanner::mapCallback($/;"	f	class:footstep_planner::FootstepPlanner
+mapCallback	src/footstep_planner_walls.cpp	/^  void mapCallback(const nav_msgs::OccupancyGridConstPtr& occupancyMap)$/;"	f	class:FootstepPlannerWallsNode
+max_footstep_theta	include/footstep_planner/FootstepPlannerEnvironment.h	/^  double max_footstep_x, max_footstep_y, max_footstep_theta;$/;"	m	struct:footstep_planner::environment_params
+max_footstep_x	include/footstep_planner/FootstepPlannerEnvironment.h	/^  double max_footstep_x, max_footstep_y, max_footstep_theta;$/;"	m	struct:footstep_planner::environment_params
+max_footstep_y	include/footstep_planner/FootstepPlannerEnvironment.h	/^  double max_footstep_x, max_footstep_y, max_footstep_theta;$/;"	m	struct:footstep_planner::environment_params
+max_inverse_footstep_theta	include/footstep_planner/FootstepPlannerEnvironment.h	/^         max_inverse_footstep_theta;$/;"	m	struct:footstep_planner::environment_params
+max_inverse_footstep_x	include/footstep_planner/FootstepPlannerEnvironment.h	/^  double max_inverse_footstep_x, max_inverse_footstep_y,$/;"	m	struct:footstep_planner::environment_params
+max_inverse_footstep_y	include/footstep_planner/FootstepPlannerEnvironment.h	/^  double max_inverse_footstep_x, max_inverse_footstep_y,$/;"	m	struct:footstep_planner::environment_params
+max_step_width	include/footstep_planner/FootstepPlannerEnvironment.h	/^  double max_step_width;$/;"	m	struct:footstep_planner::environment_params
+num_angle_bins	include/footstep_planner/FootstepPlannerEnvironment.h	/^  int    num_angle_bins;$/;"	m	struct:footstep_planner::environment_params
+num_random_nodes	include/footstep_planner/FootstepPlannerEnvironment.h	/^  int    num_random_nodes;$/;"	m	struct:footstep_planner::environment_params
+occupied	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::occupied(const PlanningState& s)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+occupied	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::occupied(const State& s)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+operator !=	src/PlanningState.cpp	/^PlanningState::operator !=(const PlanningState& s2)$/;"	f	class:footstep_planner::PlanningState
+operator !=	src/State.cpp	/^State::operator !=(const State& s2)$/;"	f	class:footstep_planner::State
+operator ()	include/footstep_planner/FootstepPlannerEnvironment.h	/^    size_t operator()(std::pair<int, int> x) const throw() {$/;"	f	struct:footstep_planner::FootstepPlannerEnvironment::IntPairHash
+operator ()	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::less::operator ()(const PlanningState* a,$/;"	f	class:footstep_planner::FootstepPlannerEnvironment::less
+operator ==	src/PlanningState.cpp	/^PlanningState::operator ==(const PlanningState& s2)$/;"	f	class:footstep_planner::PlanningState
+operator ==	src/State.cpp	/^State::operator ==(const State& s2)$/;"	f	class:footstep_planner::State
+pathExists	include/footstep_planner/FootstepPlanner.h	/^  bool pathExists() { return (bool)ivPath.size(); }$/;"	f	class:footstep_planner::FootstepPlanner
+pathIsNew	src/FootstepPlanner.cpp	/^FootstepPlanner::pathIsNew(const std::vector<int>& new_path)$/;"	f	class:footstep_planner::FootstepPlanner
+performMeOnThisState	src/Footstep.cpp	/^Footstep::performMeOnThisState(const PlanningState& current)$/;"	f	class:footstep_planner::Footstep
+performable	src/FootstepNavigation.cpp	/^FootstepNavigation::performable(const humanoid_nav_msgs::StepTarget& footstep)$/;"	f	class:footstep_planner::FootstepNavigation
+performable	src/FootstepNavigation.cpp	/^FootstepNavigation::performable(float step_x, float step_y)$/;"	f	class:footstep_planner::FootstepNavigation
+performanceValid	src/FootstepNavigation.cpp	/^FootstepNavigation::performanceValid($/;"	f	class:footstep_planner::FootstepNavigation
+performanceValid	src/FootstepNavigation.cpp	/^FootstepNavigation::performanceValid(const State& planned,$/;"	f	class:footstep_planner::FootstepNavigation
+performanceValid	src/FootstepNavigation.cpp	/^FootstepNavigation::performanceValid(float a_x, float a_y, float a_theta,$/;"	f	class:footstep_planner::FootstepNavigation
+plan	src/FootstepNavigation.cpp	/^FootstepNavigation::plan()$/;"	f	class:footstep_planner::FootstepNavigation
+plan	src/FootstepPlanner.cpp	/^FootstepPlanner::plan(bool force_new_plan)$/;"	f	class:footstep_planner::FootstepPlanner
+plan	src/FootstepPlanner.cpp	/^FootstepPlanner::plan(const geometry_msgs::PoseStampedConstPtr start,$/;"	f	class:footstep_planner::FootstepPlanner
+plan	src/FootstepPlanner.cpp	/^FootstepPlanner::plan(float start_x, float start_y, float start_theta,$/;"	f	class:footstep_planner::FootstepPlanner
+planFeetService	src/FootstepPlanner.cpp	/^FootstepPlanner::planFeetService(humanoid_nav_msgs::PlanFootstepsBetweenFeet::Request &req,$/;"	f	class:footstep_planner::FootstepPlanner
+planService	src/FootstepPlanner.cpp	/^FootstepPlanner::planService(humanoid_nav_msgs::PlanFootsteps::Request &req,$/;"	f	class:footstep_planner::FootstepPlanner
+planSrv	scripts/plan_footsteps.py	/^      planSrv = rospy.ServiceProxy("plan_footsteps", PlanFootsteps)$/;"	v
+planSrv	scripts/plan_footsteps.py	/^      planSrv = rospy.ServiceProxy("plan_footsteps_feet", PlanFootstepsBetweenFeet)$/;"	v
+pointWithinPolygon	src/helper.cpp	/^pointWithinPolygon(int x, int y, const std::vector<std::pair<int, int> >& edges)$/;"	f	namespace:footstep_planner
+random_node_distance	include/footstep_planner/FootstepPlannerEnvironment.h	/^  double random_node_distance;$/;"	m	struct:footstep_planner::environment_params
+reachable	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::reachable(const PlanningState& from,$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+replan	src/FootstepNavigation.cpp	/^FootstepNavigation::replan()$/;"	f	class:footstep_planner::FootstepNavigation
+replan	src/FootstepPlanner.cpp	/^FootstepPlanner::replan()$/;"	f	class:footstep_planner::FootstepPlanner
+reset	src/FootstepPlanner.cpp	/^FootstepPlanner::reset()$/;"	f	class:footstep_planner::FootstepPlanner
+reset	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::reset()$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+resetGrid	src/PathCostHeuristic.cpp	/^PathCostHeuristic::resetGrid()$/;"	f	class:footstep_planner::PathCostHeuristic
+resetTotally	src/FootstepPlanner.cpp	/^FootstepPlanner::resetTotally()$/;"	f	class:footstep_planner::FootstepPlanner
+resp	scripts/plan_footsteps.py	/^      resp = planSrv(start, goal)$/;"	v
+resp	scripts/plan_footsteps.py	/^      resp = planSrv(start_left, start_right, goal_left, goal_right);$/;"	v
+reverseMeOnThisState	src/Footstep.cpp	/^Footstep::reverseMeOnThisState(const PlanningState& current)$/;"	f	class:footstep_planner::Footstep
+round	include/footstep_planner/helper.h	/^inline int round(double r)$/;"	f	namespace:footstep_planner
+run	src/FootstepPlanner.cpp	/^FootstepPlanner::run()$/;"	f	class:footstep_planner::FootstepPlanner
+setGoal	src/FootstepNavigation.cpp	/^FootstepNavigation::setGoal(const geometry_msgs::PoseStampedConstPtr goal_pose)$/;"	f	class:footstep_planner::FootstepNavigation
+setGoal	src/FootstepNavigation.cpp	/^FootstepNavigation::setGoal(float x, float y, float theta)$/;"	f	class:footstep_planner::FootstepNavigation
+setGoal	src/FootstepPlanner.cpp	/^FootstepPlanner::setGoal(const State& left_foot, const State& right_foot)$/;"	f	class:footstep_planner::FootstepPlanner
+setGoal	src/FootstepPlanner.cpp	/^FootstepPlanner::setGoal(const geometry_msgs::PoseStampedConstPtr goal_pose)$/;"	f	class:footstep_planner::FootstepPlanner
+setGoal	src/FootstepPlanner.cpp	/^FootstepPlanner::setGoal(float x, float y, float theta)$/;"	f	class:footstep_planner::FootstepPlanner
+setId	include/footstep_planner/PlanningState.h	/^  void setId(unsigned int id) { ivId = id; }$/;"	f	class:footstep_planner::PlanningState
+setLeg	include/footstep_planner/State.h	/^  void setLeg(Leg leg) { ivLeg = leg; }$/;"	f	class:footstep_planner::State
+setMarkerNamespace	include/footstep_planner/FootstepPlanner.h	/^  void setMarkerNamespace(const std::string& ns)$/;"	f	class:footstep_planner::FootstepPlanner
+setMaxSearchTime	include/footstep_planner/FootstepPlanner.h	/^  void setMaxSearchTime(int search_time)$/;"	f	class:footstep_planner::FootstepPlanner
+setPlanner	src/FootstepPlanner.cpp	/^FootstepPlanner::setPlanner()$/;"	f	class:footstep_planner::FootstepPlanner
+setStart	src/FootstepPlanner.cpp	/^FootstepPlanner::setStart(const State& left_foot, const State& right_foot)$/;"	f	class:footstep_planner::FootstepPlanner
+setStart	src/FootstepPlanner.cpp	/^FootstepPlanner::setStart(const geometry_msgs::PoseStampedConstPtr start_pose)$/;"	f	class:footstep_planner::FootstepPlanner
+setStart	src/FootstepPlanner.cpp	/^FootstepPlanner::setStart(float x, float y, float theta)$/;"	f	class:footstep_planner::FootstepPlanner
+setStateArea	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::setStateArea(const PlanningState& left,$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+setTheta	include/footstep_planner/State.h	/^  void setTheta(double theta) { ivTheta = theta; }$/;"	f	class:footstep_planner::State
+setX	include/footstep_planner/State.h	/^  void setX(double x) { ivX = x; }$/;"	f	class:footstep_planner::State
+setY	include/footstep_planner/State.h	/^  void setY(double y) { ivY = y; }$/;"	f	class:footstep_planner::State
+start	scripts/plan_footsteps.py	/^      start = Pose2D()$/;"	v
+startExecution	src/FootstepNavigation.cpp	/^FootstepNavigation::startExecution()$/;"	f	class:footstep_planner::FootstepNavigation
+startPoseCallback	src/FootstepPlanner.cpp	/^FootstepPlanner::startPoseCallback($/;"	f	class:footstep_planner::FootstepPlanner
+start_left	scripts/plan_footsteps.py	/^      start_left = StepTarget()$/;"	v
+start_right	scripts/plan_footsteps.py	/^      start_right = StepTarget()$/;"	v
+state_2_cell	include/footstep_planner/helper.h	/^inline int state_2_cell(float value, float cell_size)$/;"	f	namespace:footstep_planner
+state_iter_t	include/footstep_planner/FootstepPlanner.h	/^typedef std::vector<State>::const_iterator state_iter_t;$/;"	t	namespace:footstep_planner
+stepCost	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::stepCost(const PlanningState& a,$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+step_cost	include/footstep_planner/FootstepPlannerEnvironment.h	/^  double step_cost;$/;"	m	struct:footstep_planner::environment_params
+step_range	include/footstep_planner/FootstepPlannerEnvironment.h	/^  std::vector<std::pair<int, int> > step_range;$/;"	m	struct:footstep_planner::environment_params
+stop	include/footstep_planner/FootstepNavigation.h	/^  bool stop;$/;"	m	class:footstep_planner::FootstepNavigation
+tryit	src/FootstepPlanner.cpp	/^void FootstepPlanner::tryit()$/;"	f	class:footstep_planner::FootstepPlanner
+updateEnvironment	src/FootstepPlanner.cpp	/^FootstepPlanner::updateEnvironment(const GridMap2DPtr old_map)$/;"	f	class:footstep_planner::FootstepPlanner
+updateGoal	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::updateGoal(const State& foot_left,$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+updateHeuristicValues	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::updateHeuristicValues()$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+updateMap	src/FootstepPlanner.cpp	/^FootstepPlanner::updateMap(const GridMap2DPtr map)$/;"	f	class:footstep_planner::FootstepPlanner
+updateMap	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::updateMap(gridmap_2d::GridMap2DPtr map)$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+updateMap	src/PathCostHeuristic.cpp	/^PathCostHeuristic::updateMap(gridmap_2d::GridMap2DPtr map)$/;"	f	class:footstep_planner::PathCostHeuristic
+updateStart	src/FootstepNavigation.cpp	/^FootstepNavigation::updateStart()$/;"	f	class:footstep_planner::FootstepNavigation
+updateStart	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::updateStart(const State& foot_left,$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+wallMapCallback	src/footstep_planner_walls.cpp	/^  void wallMapCallback(const nav_msgs::OccupancyGridConstPtr& occupancyMap)$/;"	f	class:FootstepPlannerWallsNode
+~EuclStepCostHeuristic	src/Heuristic.cpp	/^EuclStepCostHeuristic::~EuclStepCostHeuristic()$/;"	f	class:footstep_planner::EuclStepCostHeuristic
+~EuclideanHeuristic	src/Heuristic.cpp	/^EuclideanHeuristic::~EuclideanHeuristic()$/;"	f	class:footstep_planner::EuclideanHeuristic
+~Footstep	src/Footstep.cpp	/^Footstep::~Footstep()$/;"	f	class:footstep_planner::Footstep
+~FootstepNavigation	src/FootstepNavigation.cpp	/^FootstepNavigation::~FootstepNavigation()$/;"	f	class:footstep_planner::FootstepNavigation
+~FootstepPlanner	src/FootstepPlanner.cpp	/^FootstepPlanner::~FootstepPlanner()$/;"	f	class:footstep_planner::FootstepPlanner
+~FootstepPlannerEnvironment	src/FootstepPlannerEnvironment.cpp	/^FootstepPlannerEnvironment::~FootstepPlannerEnvironment()$/;"	f	class:footstep_planner::FootstepPlannerEnvironment
+~FootstepPlannerNode	src/FootstepPlannerNode.cpp	/^FootstepPlannerNode::~FootstepPlannerNode()$/;"	f	class:footstep_planner::FootstepPlannerNode
+~FootstepPlannerWallsNode	src/footstep_planner_walls.cpp	/^  virtual ~FootstepPlannerWallsNode(){}$/;"	f	class:FootstepPlannerWallsNode
+~Heuristic	src/Heuristic.cpp	/^Heuristic::~Heuristic()$/;"	f	class:footstep_planner::Heuristic
+~PathCostHeuristic	src/PathCostHeuristic.cpp	/^PathCostHeuristic::~PathCostHeuristic()$/;"	f	class:footstep_planner::PathCostHeuristic
+~PlanningState	src/PlanningState.cpp	/^PlanningState::~PlanningState()$/;"	f	class:footstep_planner::PlanningState
+~PlanningStateChangeQuery	src/PlanningStateChangeQuery.cpp	/^PlanningStateChangeQuery::~PlanningStateChangeQuery()$/;"	f	class:footstep_planner::PlanningStateChangeQuery
+~State	src/State.cpp	/^State::~State()$/;"	f	class:footstep_planner::State

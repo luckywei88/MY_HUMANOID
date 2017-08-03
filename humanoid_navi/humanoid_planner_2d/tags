@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+HUMANOID_PLANNER_2D_SBPL_2D_PLANNER_	include/humanoid_planner_2d/SBPLPlanner2D.h	30;"	d
+OBSTACLE_COST	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  static const unsigned char OBSTACLE_COST = 20;$/;"	m	class:SBPLPlanner2D
+SBPLPlanner2D	include/humanoid_planner_2d/SBPLPlanner2D.h	/^class SBPLPlanner2D {$/;"	c
+SBPLPlanner2D	src/SBPLPlanner2D.cpp	/^SBPLPlanner2D::SBPLPlanner2D()$/;"	f	class:SBPLPlanner2D
+SBPLPlanner2DNode	src/humanoid_planner_2d.cpp	/^  SBPLPlanner2DNode(){$/;"	f	class:SBPLPlanner2DNode
+SBPLPlanner2DNode	src/humanoid_planner_2d.cpp	/^class SBPLPlanner2DNode{$/;"	c	file:
+allocated_time_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  double allocated_time_;$/;"	m	class:SBPLPlanner2D
+forward_search_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  bool forward_search_;$/;"	m	class:SBPLPlanner2D
+getMap	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  gridmap_2d::GridMap2DPtr getMap() const { return map_;};$/;"	f	class:SBPLPlanner2D
+getPath	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  inline const nav_msgs::Path& getPath() const{return path_;};$/;"	f	class:SBPLPlanner2D
+getPathCosts	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  inline double getPathCosts() const{return path_costs_;};$/;"	f	class:SBPLPlanner2D
+getRobotRadius	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  inline double getRobotRadius() const{return robot_radius_;};$/;"	f	class:SBPLPlanner2D
+goalCallback	src/SBPLPlanner2D.cpp	/^void SBPLPlanner2D::goalCallback(const geometry_msgs::PoseStampedConstPtr& goal_pose){$/;"	f	class:SBPLPlanner2D
+goal_pose_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  geometry_msgs::Pose start_pose_, goal_pose_;$/;"	m	class:SBPLPlanner2D
+goal_received_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  bool start_received_, goal_received_;$/;"	m	class:SBPLPlanner2D
+goal_sub_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  ros::Subscriber goal_sub_, start_sub_, map_sub_;$/;"	m	class:SBPLPlanner2D
+goal_sub_	src/humanoid_planner_2d.cpp	/^  ros::Subscriber map_sub_, goal_sub_, start_sub_;$/;"	m	class:SBPLPlanner2DNode	file:
+initial_epsilon_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  double initial_epsilon_;$/;"	m	class:SBPLPlanner2D
+main	src/humanoid_planner_2d.cpp	/^int main(int argc, char** argv){$/;"	f
+mapCallback	src/SBPLPlanner2D.cpp	/^void SBPLPlanner2D::mapCallback(const nav_msgs::OccupancyGridConstPtr& occupancy_map){$/;"	f	class:SBPLPlanner2D
+map_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  gridmap_2d::GridMap2DPtr map_;$/;"	m	class:SBPLPlanner2D
+map_sub_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  ros::Subscriber goal_sub_, start_sub_, map_sub_;$/;"	m	class:SBPLPlanner2D
+map_sub_	src/humanoid_planner_2d.cpp	/^  ros::Subscriber map_sub_, goal_sub_, start_sub_;$/;"	m	class:SBPLPlanner2DNode	file:
+nh_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  ros::NodeHandle nh_;$/;"	m	class:SBPLPlanner2D
+path_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  nav_msgs::Path path_;$/;"	m	class:SBPLPlanner2D
+path_costs_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  double path_costs_;$/;"	m	class:SBPLPlanner2D
+path_pub_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  ros::Publisher path_pub_;$/;"	m	class:SBPLPlanner2D
+plan	src/SBPLPlanner2D.cpp	/^bool SBPLPlanner2D::plan(){$/;"	f	class:SBPLPlanner2D
+plan	src/SBPLPlanner2D.cpp	/^bool SBPLPlanner2D::plan(const geometry_msgs::Pose& start, const geometry_msgs::Pose& goal){$/;"	f	class:SBPLPlanner2D
+plan	src/SBPLPlanner2D.cpp	/^bool SBPLPlanner2D::plan(double startX, double startY, double goalX, double goalY){$/;"	f	class:SBPLPlanner2D
+planner_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  boost::shared_ptr<SBPLPlanner> planner_;$/;"	m	class:SBPLPlanner2D
+planner_	src/humanoid_planner_2d.cpp	/^  SBPLPlanner2D planner_;$/;"	m	class:SBPLPlanner2DNode	file:
+planner_environment_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  boost::shared_ptr<EnvironmentNAV2D> planner_environment_;$/;"	m	class:SBPLPlanner2D
+planner_type_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  std::string planner_type_;$/;"	m	class:SBPLPlanner2D
+robot_radius_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  double robot_radius_;$/;"	m	class:SBPLPlanner2D
+search_until_first_solution_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  bool search_until_first_solution_;$/;"	m	class:SBPLPlanner2D
+setPlanner	src/SBPLPlanner2D.cpp	/^void SBPLPlanner2D::setPlanner(){$/;"	f	class:SBPLPlanner2D
+startCallback	src/SBPLPlanner2D.cpp	/^void SBPLPlanner2D::startCallback(const geometry_msgs::PoseWithCovarianceStampedConstPtr& start_pose){$/;"	f	class:SBPLPlanner2D
+start_pose_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  geometry_msgs::Pose start_pose_, goal_pose_;$/;"	m	class:SBPLPlanner2D
+start_received_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  bool start_received_, goal_received_;$/;"	m	class:SBPLPlanner2D
+start_sub_	include/humanoid_planner_2d/SBPLPlanner2D.h	/^  ros::Subscriber goal_sub_, start_sub_, map_sub_;$/;"	m	class:SBPLPlanner2D
+start_sub_	src/humanoid_planner_2d.cpp	/^  ros::Subscriber map_sub_, goal_sub_, start_sub_;$/;"	m	class:SBPLPlanner2DNode	file:
+updateMap	src/SBPLPlanner2D.cpp	/^bool SBPLPlanner2D::updateMap(gridmap_2d::GridMap2DPtr map){$/;"	f	class:SBPLPlanner2D
+~SBPLPlanner2D	src/SBPLPlanner2D.cpp	/^SBPLPlanner2D::~SBPLPlanner2D() {$/;"	f	class:SBPLPlanner2D
+~SBPLPlanner2DNode	src/humanoid_planner_2d.cpp	/^  virtual ~SBPLPlanner2DNode(){}$/;"	f	class:SBPLPlanner2DNode
